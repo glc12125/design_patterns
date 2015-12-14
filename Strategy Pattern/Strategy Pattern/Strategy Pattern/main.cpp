@@ -32,5 +32,7 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "Finished the demo for Strategy Pattern." << std::endl;
     
+    delete ereDownloader;
+    delete indexDownloader;
     return 0;
 }
